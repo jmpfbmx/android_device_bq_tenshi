@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-DEVICE=tenshi
+DEVICE=chaozu
 VENDOR=bq
 
 # Load extractutils and do some sanity checks

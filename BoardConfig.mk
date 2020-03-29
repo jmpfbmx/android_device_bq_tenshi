@@ -17,9 +17,9 @@
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Aquaris_U_Plus,tenshi
+TARGET_OTA_ASSERT_DEVICE := Aquaris_U,chaozu
 
-LOCAL_PATH := device/bq/tenshi
+LOCAL_PATH := device/bq/chaozu
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8937
@@ -44,7 +44,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_APPEND_DTB := true
-TARGET_KERNEL_CONFIG := lineageos_tenshi_defconfig
+TARGET_KERNEL_CONFIG := lineageos_chaozu_defconfig
 TARGET_KERNEL_SOURCE := kernel/bq/msm8937
 
 # Audio
@@ -179,4 +179,4 @@ WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/wlan.ko"
 WIFI_DRIVER_MODULE_NAME     := "wlan"
 
 # inherit from the proprietary version
--include vendor/bq/tenshi/BoardConfigVendor.mk
+-include vendor/bq/chaozu/BoardConfigVendor.mk

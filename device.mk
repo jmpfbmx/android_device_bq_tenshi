@@ -20,7 +20,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvi
 
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/bq/tenshi/tenshi-vendor.mk)
+$(call inherit-product-if-exists, vendor/bq/chaozu/chaozu-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay

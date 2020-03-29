@@ -1,2 +1,2 @@
-add_lunch_combo lineage_tenshi-eng
-add_lunch_combo lineage_tenshi-userdebug
+add_lunch_combo lineage_chaozu-eng
+add_lunch_combo lineage_chaozu-userdebug

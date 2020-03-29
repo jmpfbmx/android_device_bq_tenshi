@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter tenshi,$(TARGET_DEVICE)),)
+ifneq ($(filter chaozu,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
@@ -216,4 +216,4 @@ $(shell mkdir -p $(TARGET_OUT)/etc/firmware/wlan/prima; \
 	    $(TARGET_OUT)/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini)
 
 endif
-include device/bq/tenshi/tftp.mk
+include device/bq/chaozu/tftp.mk
